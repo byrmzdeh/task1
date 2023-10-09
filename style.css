@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body .one {
+  width: 85%;
+  background-color: rgb(218, 219, 226);
+}
+body .one .input {
+  width: 20%;
+  margin-top: 5px;
+}
+body .one a {
+  font-family: sans-serif;
+  color: rgb(20, 2, 211);
+}
+body .two {
+  width: 85%;
+  height: 650px;
+  background-color: rgb(211, 219, 212);
+}
+body .two .tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .two .tab table {
+  border: 1px solid rgb(11, 40, 11);
+}
+body .two .tab table thead {
+  background-color: rgb(41, 177, 41);
+  color: white;
+}
+body .two .tab table thead th {
+  border: 1px solid rgb(237, 237, 194);
+  text-align: center;
+  padding: 5px;
+}
+body .two .tab table td {
+  text-align: center;
+  border: 1px solid rgb(82, 92, 82);
+  padding: 5px;
+}
+body .three {
+  width: 85%;
+  background-color: rgb(255, 237, 243);
+}
+body .three .lorem {
+  font-style: italic;
+  letter-spacing: 2px;
+}
+body .three table {
+  width: 30%;
+}
+body .three .input {
+  width: 10%;
+}
+body .three a {
+  font-family: sans-serif;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+body{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    .one{
+        width: 85%;
+        background-color: rgb(218, 219, 226);
+        .input{
+            width: 20%;
+            margin-top: 5px;
+        }
+        a{
+            font-family: sans-serif;
+            color: rgb(20, 2, 211);
+        }
+    }
+    .two{
+        width: 85%;
+        height: 650px;
+        background-color: rgb(211, 219, 212);
+        .tab{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            table{
+                border: 1px solid rgb(11, 40, 11);
+                thead{
+                    background-color: rgb(41, 177, 41);
+                    color: white;
+                    th{
+                        border: 1px solid rgb(237, 237, 194);
+                        text-align: center;
+                        padding: 5px;
+                    }
+                }
+                td{
+                    text-align: center;
+                    border: 1px solid rgb(82, 92, 82);
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    .three{
+        width: 85%;
+        background-color: rgb(255, 237, 243);
+        .lorem{
+            font-style: italic;
+            letter-spacing: 2px;
+        }
+        table{
+            width: 30%;
+        }
+        .input{
+            width: 10%;
+        }
+        a{
+            font-family: sans-serif;
+        }
+       
+    }
+
+}
